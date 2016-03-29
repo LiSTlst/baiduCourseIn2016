@@ -1,0 +1,60 @@
+#box0{
+	display:block;
+	position:relative;
+	background-color:#eee;
+	border:1px solid #999;
+	padding:20px;
+	overflow:auto;
+}
+.box{
+	display:inline-block;
+	background-color:white;
+	border:1px solid #999;
+	float:left;
+	margin:10px;
+	overflow:auto;
+}
+#one{
+	position:absolute;
+	display: block;
+	width:200px;
+	padding:10px;
+	left:0;
+}
+#one #teamLogo{
+	display:block;
+	float:left;
+	margin:10px;
+	border:1px solid #999;
+}
+#one #teamName{
+	display:block;
+	float:left;
+	margin:10px;
+}
+#two{
+	display:block;
+	padding:5px;
+	margin-right: 150px;
+	margin-left: 250px;
+}
+#two #introduction{
+	display: inline-block;
+	width:100px;
+}
+#three{
+	position:absolute;
+	display: inline;
+	width:120px;
+	overflow:auto;
+	right:0;
+}
+#three .pictures{
+	display:inline-block;
+	border:1px solid #999;
+	margin:20px;
+}
+#three .pictures img{
+	width: 80px;
+	height: 80px;
+}

@@ -1,0 +1,29 @@
+/*
+.box0{
+	display:block;
+	background-color:yellow;
+	height:1000px;
+	width:500px;
+}
+*/
+.box{
+	display:block-line;
+	color:white;
+	background-color:red;
+	width:100px;
+	height:100px;
+	margin:0px;
+	float:left;
+	border:2px solid green;
+}
+
+#box1{
+	position:sticky;
+	top:100px;
+}
+
+#box2{
+	position:relative;
+	bottom:0px;
+	left:20px;
+}
