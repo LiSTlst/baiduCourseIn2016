@@ -1,132 +1,114 @@
 body{
-	background-color:#eee;
 	font-family:"微软雅黑";
+	background-color:#ddd;
+	padding:0;
+	margin:0;
 }
-header{
-	background-color:#555;
-	display:block;
-	position:relative;
-	margin:0px;
-	padding:10px;
+/*body等一些元素有默认的margin值，body的margin会让页面元素与浏览器边框之间产生空隙*/
+ul{
+	list-style:none;
 }
-header h1{
-	display:inline;
-	color:orange;
+a{
+	text-decoration:none;
 }
-nav{
-	position:absolute;
-	display:inline;
-	top:20px;
-	right:20px;
+.nav{
+	width: 100%;
+	height: 60px;
+	margin:0;
+	background:#333;
+	overflow:hidden;
 }
-nav li{
-	display: inline;
+.nav #logo{
+	height:40px;
+	margin:10px 0px 10px 20px;
+	float:left;
 }
-nav li a{
+.nav #navlist{
+	height:20px;
+	float:right;
+	margin:20px 20px 20px 0px;
+}
+.nav #navlist ul{
+	margin:0;
+}
+.nav ul li{
+	display: inline-block;
+	margin-left:10px;
+}
+.nav ul li a{
+	font-size:14px;
 	color:#fff;
-	text-decoration: none;
 }
 
-nav.lastLi a{
+.container{
+	margin:15px;
+}
+.article{
+	padding:10px;
+	background-color:#fff;
+	box-shadow: 2px 2px 2px 2px #aaa;
+	margin-bottom:10px;
+}
+.article h3{
+	color:#555;
+}
+.article h4{
 	color:#888;
 }
-
-div{
-	margin:10px;
-}
-.artical{
-	border-right:2px solid #aaa;
-	border-bottom:2px solid #aaa;
-	background-color:white;
-	padding:15px;
-}
-h2{
-	color:#999;
-}
-footer{
+#pictures li{
 	display:block;
-	background-color: #000;
-	height:60px;
-}
-footer p{
-	line-height: 60px;
-	text-align:center;
-	color:#fff;
-}
-ol li{
-
-	font-weight: bold;
-}
-table{
-	display:block;
-	width: 100%;
-}
-thead{
-	display: inline-block;
-	background-color:#444;
-	width:100%;
-}
-table tr{
-	display:block;
-}
-th{
-	color:#fff;
-	display:inline-block;
-	border:1px solid #fff;
-	margin:0 0 0 0;
-	width:33.33%;
-}
-td{
-	display:inline-block;
-	border:1px solid #000;
-	margin:0px;
-}
-select{
-	color:#15f;
-}
-.aside{
-	border-right:2px solid #aaa;
-	border-bottom:2px solid #aaa;
-	background-color:white;
-	padding:15px;
-}
-.aside h1{
-	border-left: 5px solid #aaa;
+	border:1px solid #888;
 	padding:5px;
+	margin-bottom: 10px;
+	width: 384px;
 }
-.aside form{
+#pictures li p{
 	text-align: center;
 }
-
-.pictureGallery{
-	display: block;
+table{
+	border:1px solid #000;
+	width:100%;
+	border-spacing:0px;
 }
-.pictureGallery div{
-	display: inline-block;
-	border:1px solid #bbb;
-	padding:4px;
-	text-align:center;
+td{
+	border:1px solid #555;
+	margin:0px;
 }
-.pictureGallery p{
-	font-weight: bold;
-	font-family: "微软雅黑";
-}
-.imformation{
-	color:#aaa;
-}
-.aside form{
-	position:relative;
-	float:auto;
-}
-#lastBotton{
-	display:block;
+thead td{
 	color:#fff;
-	font-weight: bold;
-	border:0;
-	height: 30px;
-	border-radius: 10px;
-	width: 100%;
-	background-color:#15f;
-	margin-top: 10px;
+	background-color:#333;
 }
-
+tfoot td{
+	background-color:#666;
+}
+#aside h2{
+	border-left: 3px solid #666;
+	padding-left:10px;
+}
+.form_group{
+	width:400px;
+	margin:0px auto;
+}
+.form_group p{
+	display:inline-block;
+}
+#genders,#habit{
+	display:inline-block;
+}
+#submit{
+	width: 100%;
+	border-radius: 5px;
+	height: 30px;
+	color:#fff;
+	background-color: #2196F3;
+	margin-top:20px;
+}
+.footer{
+	height: 50px;
+	color:#fff;
+	background-color: #000;
+}
+.footer p{
+	line-height: 50px;
+	text-align: center;
+}
