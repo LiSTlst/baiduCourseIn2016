@@ -1,0 +1,30 @@
+#origin{
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.round{
+	background-color:#fc0;
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	position:absolute;
+
+}
+#box0{
+	width: 400px;
+	height:200px;
+	background-color:#ccc;
+	position:relative;
+	overflow:hidden;
+	margin:auto;
+}
+#box1{
+	top:-50px;
+	left:-50px;
+}
+#box2{
+	bottom:-50px;
+	right:-50px;
+}

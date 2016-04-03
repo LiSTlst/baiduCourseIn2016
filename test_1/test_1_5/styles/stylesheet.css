@@ -42,6 +42,7 @@ a{
 
 .container{
 	margin:15px;
+	position:relative;
 }
 .article{
 	padding:10px;
@@ -123,4 +124,13 @@ tfoot td{
 .footer p{
 	line-height: 50px;
 	text-align: center;
+}
+.container #articles{
+	margin-right: 440px;
+}
+#aside{
+	position:absolute;
+	width:400px;
+	right:0;
+	top:0;
 }

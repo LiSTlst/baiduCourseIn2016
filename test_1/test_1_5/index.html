@@ -20,6 +20,66 @@
 		</div>
 	</div>
 	<div class="container">
+
+		<div class="article" id="aside">
+			<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+			<form>
+				<div id="emailpart" class="form_group">
+					<div id="email">
+						<label for="email">请输入邮箱地址:</label>
+						<input if="email" type="text" placeholder="邮箱地址"></input>
+					</div>
+					<p>邮箱地址请按照要求格式输入</p>
+				</div>
+				<div id="passwordpart" class="form_group">
+					<div class="password">
+						<label for="password">请输入密码：</label>
+						<input id="password" type="password" placeholder="请输入密码"></input>
+					</div>
+					<div class="passwordagain">
+						<label for="passwordagain">请重新输入密码：</label>
+						<input id="passwordagain" type="password" placeholder="请再次输入密码"></input>
+						<p>密码为6-16位英文或者数字</p>
+					</div>
+				</div>
+				<div id="genderpart" class="form_group">
+					<p>性别：</p>
+					<div id="genders">
+						<input type="radio" id="male"></input>
+						<label for="male">男</label>
+						<input type="radio" id="female"></input>
+						<label for="female">女</label>
+					</div>
+				</div>
+				<div id="citypart" class="form_group">
+					<p>城市：</p>
+					<select id="cities">
+						<option selected="selected">北京</option>
+						<option>上海</option>
+						<option>广州</option>
+						<option>武汉</option>
+					</select>
+				</div>
+				<div id="habitpart" class="form_group">
+					<p>爱好：</p>
+					<div id="habit">
+						<input type="checkbox" id="	sport"></input>
+						<label for="sport">运动</label>
+						<input type="checkbox" id="arts"></input>
+						<label for="arts">艺术</label>
+						<input type="checkbox" id="sience"></input>
+						<label for="sience">科学</label>
+					</div>
+				</div>
+				<div id="introductionpart" class="form_group">
+					<label for="introduction">个人描述：</label>
+					<textarea id="introduction" placeholder="在这里输入你对自己的描述"></textarea>
+				</div>
+				<input id="submit" type="submit" value="确认提交"></input>
+			</form>
+		</div>
+		
+	<div id="articles">
 		<div class="article">
 			<h2>文章一级标题</h2>
 			<h3>文章二级标题</h3>
@@ -105,63 +165,8 @@
 				</tfoot>
 			</table>
 		</div>
-		<div class="article" id="aside">
-			<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-			<form>
-				<div id="emailpart" class="form_group">
-					<div id="email">
-						<label for="email">请输入邮箱地址:</label>
-						<input if="email" type="text" placeholder="邮箱地址"></input>
-					</div>
-					<p>邮箱地址请按照要求格式输入</p>
-				</div>
-				<div id="passwordpart" class="form_group">
-					<div class="password">
-						<label for="password">请输入密码：</label>
-						<input id="password" type="password" placeholder="请输入密码"></input>
-					</div>
-					<div class="passwordagain">
-						<label for="passwordagain">请重新输入密码：</label>
-						<input id="passwordagain" type="password" placeholder="请再次输入密码"></input>
-						<p>密码为6-16位英文或者数字</p>
-					</div>
-				</div>
-				<div id="genderpart" class="form_group">
-					<p>性别：</p>
-					<div id="genders">
-						<input type="radio" id="male"></input>
-						<label for="male">男</label>
-						<input type="radio" id="female"></input>
-						<label for="female">女</label>
-					</div>
-				</div>
-				<div id="citypart" class="form_group">
-					<p>城市：</p>
-					<select id="cities">
-						<option selected="selected">北京</option>
-						<option>上海</option>
-						<option>广州</option>
-						<option>武汉</option>
-					</select>
-				</div>
-				<div id="habitpart" class="form_group">
-					<p>爱好：</p>
-					<div id="habit">
-						<input type="checkbox" id="	sport"></input>
-						<label for="sport">运动</label>
-						<input type="checkbox" id="arts"></input>
-						<label for="arts">艺术</label>
-						<input type="checkbox" id="sience"></input>
-						<label for="sience">科学</label>
-					</div>
-				</div>
-				<div id="introductionpart" class="form_group">
-					<label for="introduction">个人描述：</label>
-					<textarea id="introduction" placeholder="在这里输入你对自己的描述"></textarea>
-				</div>
-				<input id="submit" type="submit" value="确认提交"></input>
-			</form>
-		</div>
+	</div>
+
 	</div>
 	<div class="footer">
 		<p>版权所有&copy;</p>

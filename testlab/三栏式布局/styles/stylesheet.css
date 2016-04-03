@@ -1,0 +1,29 @@
+.box{
+	color:#fff;
+	border:1px solid #999;
+	display:inline-block;
+}
+#box0{
+	position:relative;
+	width:100%;
+	background-color: #eee;
+	overflow:hidden;
+}
+#box1{
+	width:200px;
+	height:100px;
+	background-color:green;
+	position:absolute;
+	left: 0;
+}
+#box2{
+	background-color:black;
+	margin:0px 220px;
+}
+#box3{
+	position:absolute;
+	width:200px;
+	height:100px;
+	background-color:cyan;
+	right:0;
+}
