@@ -1,0 +1,270 @@
+body{
+	width: 1280px;
+	margin:0px;
+	font-family: "微软雅黑";
+}
+#header{
+	background-color:#fff;
+	width: 1280px;
+	height:59px;
+	border-bottom:1px solid #ddd;
+}
+#header h3{
+	float:left;
+	font-size:30px;
+	font-family: "黑体";
+	font-weight: lighter;
+	color:#222;
+	background:url(../images/logo_icon.png) no-repeat left center;
+	padding-left:35px;
+	margin: 13px 0px 13px 30px;
+}
+#header ul{
+	margin:0px;
+	float:right;
+	list-style: none;
+}
+#header ul li{
+	float:right;
+	color:#888;
+	font-size:14px;
+	font-weight: lighter;
+	line-height: 60px;
+	padding:0px 15px;
+	text-align:center;
+}
+.navlist a{
+	text-decoration: none;
+	color:#444;
+	display:block;
+	height:56px;
+	padding: 0px 10px;
+}
+#header ul #login{
+	background: url(../images/login_icon.png) no-repeat left center;
+	padding-left: 8px;
+	margin-left:10px;
+}
+#header ul #login a {
+	color:#e85957;
+}
+.navlist a:hover{
+	border-bottom:3px solid #e85957;
+	color:#e85957;
+}
+#testblock{
+	color:#fff;
+	min-width: 1280px;
+	height: 700px;
+	background:url(../images/banner.png) no-repeat left center;
+}
+#testblock h1{
+	font-size:60px;
+	margin:0px;
+	padding:180px 0px 0px 100px; 
+}
+#testblock p{
+	font-size:18px;
+	padding:0px 0px 0px 100px;
+}
+#testblock a{
+	display: block;
+	text-decoration: none;
+	width: 400px;
+	height: 70px;
+	background-color:#e85957;
+	margin:60px 0px 0px 100px;
+	font-size: 30px;
+	line-height: 70px;
+	text-align: center;
+	text-decoration: none;
+	color:#fff;
+}
+#introduction{
+	height: 220px;
+	width: 1280px;
+}
+#introduction div{
+	display:inline-block;
+	width: 24%;
+	text-align: center;
+	margin:0px;
+	color:#999;
+}
+#introduction div img{
+	margin:40px auto;
+}
+#introduction1 p,#introduction2 p,#introduction3 p{
+	border-right: 2px solid #888;
+}
+#askforguesters{
+	width: 1280px;
+	height: 300px;
+	background-color: #eee;
+	padding:70px 0px 0px 0px;
+}
+#askforguesters img{
+	display: block;
+	margin:auto;
+}
+#askforguesters h1{
+	color:#aaa;
+	font-size:50px;
+	font-family: "黑体";
+	margin:60px 0px 0px 220px;
+}
+#address{
+	background:url(../images/map.png);
+	width: 1280px;
+	height: 340px;
+	margin:0px;
+}
+#address h3{
+	color:#fff;
+	font-size:20px;
+	margin:0px auto;
+	padding-top:60px;
+	text-align: center;
+	width: 300px;
+}
+#address .hor{
+	width: 40px;
+	border-top:2px solid #fff;
+	margin:20px auto;
+}
+#address p{
+	text-align: center;
+	width: 600px;
+	margin:0px auto;
+	color:#fff;
+	font-size:16px;
+	font-weight: lighter;
+}
+#address .chosebox{
+	background-color: #999;
+	width: 300px;
+	height:30px;
+	float:left;
+	background:url(../images/sel_icon.png) no-repeat right center;
+	border:1px solid #e85957;
+}
+#address .choselist{
+	background-color: #999;
+	width: 300px;
+	height: 30px;
+	float:left;
+	border:1px solid #e85957;
+}
+#picturegallery{
+	width: 1035px;
+	margin: 80px auto 40px;
+}
+#picturegallery .picture{
+	display:inline-block;
+	margin:20px 15px;
+}
+#picturegallery .picture div{
+	border:1px solid #999;
+	padding:10px;
+	display:inline-block;
+}
+#picturegallery h3{
+	text-align: center;
+	font-size:16px;
+}
+#picturegallery p{
+	text-align: center;
+	font-size:14px;
+	font-weight: lighter;
+}
+#detail{
+	position:relative;
+}
+#detail #tittleblock{
+	color:#fff;
+	display:inline-block;
+	background:url(../images/new_time.jpg) no-repeat left center;
+	width: 66.67%;
+	height: 550px;
+}
+#detail #tittleblock h2{
+	font-size: 50px;
+	width: 500px;
+	margin:100px auto 0px;
+	text-align: center;
+	font-weight: lighter;
+}
+#detail #tittleblock h1{
+	font-size:100px;
+	width: 500px;
+	text-align: center;
+	margin:auto;
+}
+#detail #tittleblock p{
+	font-size: 20px;
+	width: 500px;
+	text-align: center;
+	margin:20px auto;
+}
+#detail #textblock{
+	width: 33.33%;
+	display:inline-block;
+}
+#detail #textblock h3{
+	font-size: 30px;
+	width: 400px;
+	text-align:center;
+	margin:auto;
+	color:#000;
+}
+#detail #textblock h3 span{
+	color:#e85957;
+	font-style: italic;
+}
+#detail #textblock p{
+	color:#888;
+	width: 400px;
+	margin:20px auto;
+	text-align: center;
+	font-size:14px;
+}
+#detail #textblock a{
+	text-decoration: none;
+	color:#e85957;
+	width: 200px;
+	height: 40px;
+	border:1px solid #e85957;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	margin:20px auto;
+}
+#detail #block2{
+	height: 500px;
+}
+#detail #block2 #colorblocks{
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+}
+#detail #block2 #colorblocks .colorblock{
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+#detail #block2 #colorblocks #colorblock1{
+	background-color: #e85957;
+	height: 100%;
+}
+#detail #block2 #colorblocks #colorblock2{
+	background-color:#ffffff;
+	height: 100%;
+	margin-left: -10px;
+}
+#detail #block2 #picblock{
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	margin-left: -10px;
+	background:url(../images/new_time_bg.png) no-repeat left center;
+}
