@@ -1,7 +1,18 @@
+a{
+	text-decoration: none;
+}
+div{
+	margin:0px;
+}
 body{
 	width: 1280px;
 	margin:0px;
 	font-family: "微软雅黑";
+}
+.hor{
+	width: 40px;
+	border-top:2px solid #fff;
+	margin:20px auto;
 }
 #header{
 	background-color:#fff;
@@ -14,7 +25,7 @@ body{
 	font-size:30px;
 	font-family: "黑体";
 	font-weight: lighter;
-	color:#222;
+	color: #222;
 	background:url(../images/logo_icon.png) no-repeat left center;
 	padding-left:35px;
 	margin: 13px 0px 13px 30px;
@@ -46,11 +57,11 @@ body{
 	margin-left:10px;
 }
 #header ul #login a {
-	color:#e85957;
+	color:#e84e4c;
 }
 .navlist a:hover{
-	border-bottom:3px solid #e85957;
-	color:#e85957;
+	border-bottom:3px solid #e84e4c;
+	color:#e84e4c;
 }
 #testblock{
 	color:#fff;
@@ -72,13 +83,16 @@ body{
 	text-decoration: none;
 	width: 400px;
 	height: 70px;
-	background-color:#e85957;
+	background-color:#e84e4c;
 	margin:60px 0px 0px 100px;
 	font-size: 30px;
 	line-height: 70px;
 	text-align: center;
 	text-decoration: none;
 	color:#fff;
+}
+#testblock a:hover{
+	background-color:#ee0000;
 }
 #introduction{
 	height: 220px;
@@ -127,11 +141,6 @@ body{
 	text-align: center;
 	width: 300px;
 }
-#address .hor{
-	width: 40px;
-	border-top:2px solid #fff;
-	margin:20px auto;
-}
 #address p{
 	text-align: center;
 	width: 600px;
@@ -140,20 +149,69 @@ body{
 	font-size:16px;
 	font-weight: lighter;
 }
+#address .formblock{
+	padding:0px 115px;
+}
 #address .chosebox{
-	background-color: #999;
-	width: 300px;
+	background-color: #fff;
+	width: 200px;
 	height:30px;
 	float:left;
-	background:url(../images/sel_icon.png) no-repeat right center;
-	border:1px solid #e85957;
+	border:1px solid #e84e4c;
+	position:relative;
+	margin:60px 30px;
 }
-#address .choselist{
-	background-color: #999;
-	width: 300px;
+#address .formblock form>a{
+	width: 200px;
 	height: 30px;
-	float:left;
-	border:1px solid #e85957;
+	float:right;
+	background-color: #e84e4c;
+	margin:60px 30px;
+	text-decoration: none;
+	color:#fff;
+	line-height: 30px;
+	text-align: center;
+}
+#address .chosebox>p{
+	background:url(../images/sel_icon.png) no-repeat 170px;
+	width: 190px;
+	color:#555;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 30px;
+}
+#address .chosebox .choselist{
+	display:none;
+}
+#address .chosebox:hover .choselist{
+	display:block;
+	background-color: #ddd;
+	width: 200px;
+	border:1px solid #e84e4c;
+	margin-top:0px;
+	position:absolute;
+	top:30px;
+	left:-1px;
+	padding-left: 0px;
+}
+#address .chosebox .choselist li{
+	line-height:30px;
+	list-style: none;
+	color:#555;
+}
+#address .chosebox .choselist li p{
+	width: 190px;
+	color:#555;
+	text-align: left;
+	padding-left: 30px;
+	line-height: 30px;
+}
+#address .chosebox .choselist li:hover{
+	background-color: #e84e4c;
+	color:#fff;
+}
+#address .chosebox .choselist li:hover p{
+	background:url(../images/sel_list_icon.png) no-repeat 10px center;
 }
 #picturegallery{
 	width: 1035px;
@@ -179,6 +237,7 @@ body{
 }
 #detail{
 	position:relative;
+	width: 100%;
 }
 #detail #tittleblock{
 	color:#fff;
@@ -207,7 +266,8 @@ body{
 	margin:20px auto;
 }
 #detail #textblock{
-	width: 33.33%;
+	width: 30%;
+	height: 100%;
 	display:inline-block;
 }
 #detail #textblock h3{
@@ -218,7 +278,7 @@ body{
 	color:#000;
 }
 #detail #textblock h3 span{
-	color:#e85957;
+	color:#e84e4c;
 	font-style: italic;
 }
 #detail #textblock p{
@@ -230,41 +290,250 @@ body{
 }
 #detail #textblock a{
 	text-decoration: none;
-	color:#e85957;
+	color:#e84e4c;
 	width: 200px;
 	height: 40px;
-	border:1px solid #e85957;
+	border:1px solid #e84e4c;
 	display: block;
 	line-height: 40px;
 	text-align: center;
 	margin:20px auto;
 }
+#detail #textblock #pagechangeselections{
+	width: 60%;
+	margin:0px auto;
+}
+#detail #textblock .pagechangeselection{
+	display:inline-block;
+	height: 10px;
+	width: 10px;
+	border:1px solid #999;
+	border-radius: 100%;
+	margin:30px;
+}
+#detail #textblock .pagechangeselection:hover{
+	background-color:#e84e4c;
+}
 #detail #block2{
 	height: 500px;
 }
 #detail #block2 #colorblocks{
-	width: 60%;
+	width: 66.67%;
 	height: 100%;
 	display: inline-block;
 }
 #detail #block2 #colorblocks .colorblock{
 	height: 100%;
 	width: 50%;
-	display: inline-block;
+	float:left;
+}
+#detail #block2 #colorblocks .colorblock h3{
+	font-size:30px;
+	text-align: center;
+	margin:150px auto 20px;
+	font-family: "黑体";
+}
+#detail #block2 #colorblocks #colorblock1 h3{
+	color:#fff;
+}
+#detail #block2 #colorblocks .colorblock a{
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-family: "黑体";
+	text-align: center;
+	margin:20px auto 0px;
+}
+#detail #block2 #colorblocks #colorblock1 a{
+	color:#fff;
+	border:1px solid #fff;
+}
+#detail #block2 #colorblocks #colorblock2 a{
+	color:#e84e4c;
+	border:1px solid #e84e4c;
+}
+#detail #block2 #colorblocks #colorblock2 .hor{
+	border-color:#aaa;
 }
 #detail #block2 #colorblocks #colorblock1{
-	background-color: #e85957;
+	background-color: #e84e4c;
 	height: 100%;
 }
 #detail #block2 #colorblocks #colorblock2{
 	background-color:#ffffff;
 	height: 100%;
-	margin-left: -10px;
 }
 #detail #block2 #picblock{
-	width: 40%;
+	width: 33.33%;
 	height: 100%;
-	display: inline-block;
-	margin-left: -10px;
+	float:right;
 	background:url(../images/new_time_bg.png) no-repeat left center;
+}
+#be-volunteer{
+	height: 700px;
+}
+#be-volunteer #volunteer-reasons{
+	width: 100%;
+}
+#be-volunteer #volunteer-reasons h3{
+	text-align:center;
+}
+#be-volunteer #volunteer-reasons .hor{
+	border-color:#e84e4c;
+}
+#be-volunteer #volunteer-reasons p{
+	text-align: center;
+	color:#999;
+}
+#be-volunteer #some-tips{
+	margin-top:30px;
+}
+#be-volunteer #laws{
+	width: 30%;
+	float:left;
+}
+#be-volunteer #laws div{
+	width: 80%;
+	margin:0px auto 80px;
+}
+#be-volunteer #laws div h4{
+	color:#444;
+}
+#be-volunteer #laws div p{
+	color:#999;
+}
+#be-volunteer #laws div a{
+	float:right;
+	right: 0px;
+	padding-left: 15px;
+	color:#444;
+	background:url(../images/more_icon.png) no-repeat left center;
+}
+#be-volunteer #personal-imformation{
+	width: 70%;
+	float:left;
+	padding-top:20px;
+}
+#be-volunteer #personal-imformation input[type="text"]{
+	display:inline-block;
+	margin: 0px 20px 20px 0px;
+	height: 40px;
+	width: 45%;
+	background-color:#eee;
+	border:0;
+	font-size:16px;
+	padding:0px 0px 0px 10px;
+}
+#be-volunteer #personal-imformation input[type="text"]:focus{
+	background-color:#fff;
+}
+#be-volunteer #personal-imformation textarea{
+	width: 92.8%;
+	height: 230px;
+	background-color:#eee;
+	border:0;
+	margin-bottom: 20px;
+	font-size: 16px;
+	padding:10px;
+}
+#be-volunteer #personal-imformation input[type="submit"]{
+	border:0;
+	background-color:#eee;
+	width: 95%;
+	height: 40px;
+	font-family: "黑体";
+}
+#contactus{
+	background-color:#33363f;
+	padding:50px;
+}
+#contactus h3{
+	color:#fff;
+	font-family:"黑体";
+	font-size:20px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+#contactus p{
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+	margin:5px auto 20px;
+}
+#contactus form{
+	display: inline-block;
+	width: 480px;
+	height: 30px;
+	margin-left:350px;
+	position:relative;
+}
+#contactus input[type="email"]{
+	display: inline-block;
+	height: 30px;
+	width: 400px;
+	border:0;
+	position:absolute;
+	left: 0px;
+}
+#contactus input[type="submit"]{
+	display:inline-block;
+	color:#fff;
+	background-color:#777;
+	height: 32px;
+	width: 80px;
+	position: absolute;
+	right: 0px;
+	border:0px;
+}
+#contactus input[type="submit"]:hover{
+	background-color: #333;
+}
+#contactus #sharelink{
+	width: 280px;
+	margin:20px auto;
+}
+#contactus #sharelink a{
+	display: inline-block;
+	margin:0px 20px;
+	height: 25px;
+	width: 25px;
+}
+#contactus #qq{
+	background-image:url(../images/qq_icon.png); 
+}
+#contactus #weibo{
+	background-image:url(../images/weibo_icon.png);
+}
+#contactus #tw{
+	background-image:url(../images/twitter_icon.png);
+}
+#contactus #net{
+	background-image:url(../images/internet_icon.png);
+}
+#footer{
+	background-color:#30303a;
+	height: 80px;
+	position:relative;
+}
+#footer p{
+	line-height: 80px;
+	margin:0px;
+	color:#fff;
+	font-size:14px;
+}
+#footer #footername{
+	position:absolute;
+	display: inline-block;
+	left: 30px;
+	margin-left: 30px;
+}
+#footer #backtotop{
+	position: absolute;
+	display: inline-block;
+	right: 30px;
+	margin-right: 30px;
+}
+#footer #backtotop a{
+	color:#fff;
 }
