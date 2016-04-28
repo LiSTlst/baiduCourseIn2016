@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>felx boxes</title>
+	<style type="text/css">
+		body{
+			margin:0;
+			padding:0;
+		}
+		div.container{
+			display:flex;
+			margin:0;
+			padding:0;
+			flex-wrap:wrap;
+			justify-content:space-between;
+			align-items: center;
+		}
+		div.flexbox{
+			width: 150px;
+			border:1px solid #f00;
+			margin-bottom:20px;
+		}
+		div#one{
+			height: 120px;
+		}
+		div#two{
+			height: 100px;
+		}
+		div#three{
+			height: 40px; 
+		}
+		div#four{
+			height: 200px;
+			border:1px solid #0f0;
+		}
+		@media(max-width: 640px){
+			#four{
+				order:-1;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="flexbox" id="one"></div>
+		<div class="flexbox" id="two"></div>
+		<div class="flexbox" id="three"></div>
+		<div class="flexbox" id="four"></div>
+	</div>
+</body>
+</html>
